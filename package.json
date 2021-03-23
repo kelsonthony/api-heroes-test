@@ -1,0 +1,23 @@
+{
+  "name": "api-heroes-test",
+  "version": "1.0.0",
+  "description": "api heroes test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelsonthony/api-heroes-test.git"
+  },
+  "keywords": [
+    "api",
+    "nodejs"
+  ],
+  "author": "@kelsonthony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelsonthony/api-heroes-test/issues"
+  },
+  "homepage": "https://github.com/kelsonthony/api-heroes-test#readme"
+}
