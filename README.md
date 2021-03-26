@@ -74,3 +74,6 @@ Sistem PostgreSQL
 Server postgresheroesDCComics
 Username: adminpostgres
 Password: passwordpostgres
+
+### Setup dev ###
+
