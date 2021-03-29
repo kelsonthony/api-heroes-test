@@ -72,4 +72,22 @@ module.exports = class Postgres extends Icrud {
 
         return result
     }
+
+    async update(id, item) {
+        //console.log('my item update', item)
+
+        const result = await this._heroesDC.update(item, {
+            where: { id: id}
+        })
+        //console.log('result', result)
+
+        return result
+    }
+
+    async delete(id) {
+        const result = id ? {id: id} : {}
+        return this._heroesDC.destroy({
+            where: result
+        })
+    }
 }
