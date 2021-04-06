@@ -36,15 +36,6 @@ class Postgres extends Icrud {
 
 }
 
-class MongoDB extends Icrud {
-    constructor() {
-        super()
-    }
-
-    create(item) {
-        console.log('Item salve on MongoDB!')
-    }
-}
 
 class ContextStrategy {
     
